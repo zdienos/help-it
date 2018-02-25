@@ -16,7 +16,7 @@
 
   <!-- fullCalendar -->
   <link href='<?php echo base_url();?>assets/zed/css/fullcalendar.css' rel='stylesheet' />
- 
+
   <!-- colorpicker -->
   <link rel="stylesheet" href="<?php echo base_url();?>assets/bower_components/bootstrap-colorpicker/dist/css/bootstrap-colorpicker.min.css"  />
   <!-- bootstrap datepicker -->
@@ -41,6 +41,8 @@
     cursor: pointer;
     font-size: 11px;
  }
+.fc-sun, .fc-sat { background-color:#fcefef; } /*fcdee4 */
+.fc-unthemed .fc-today { background-color:#cff9d6; } /* acf9ba*/
 .modal-header{
       background-color: #3A87AD;
       color: #fff;
@@ -70,11 +72,11 @@
 
   <header class="main-header">
     <!-- Logo -->
-    <a href="index2.html" class="logo">
+    <a href="#" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
-      <span class="logo-mini"><b>H</b>IT</span>
+      <span class="logo-mini"><b><i class="fa fa-cogs"></i></b></span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b>Help</b> - IT</span>
+      <span class="logo-lg"><b><i class="fa fa-cogs"></i> Help</b> - IT</span>
     </a>
     <!-- Header Navbar: style can be found in header.less -->
     <nav class="navbar navbar-static-top">

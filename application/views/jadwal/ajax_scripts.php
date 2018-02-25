@@ -69,7 +69,7 @@ $(document).ready(function(){
         // Get all events stored in database
         eventLimit: true, // allow "more" link when too many events
         events: base_url+'jadwal/getEvents',
-
+        firstDay: 1,
         fixedWeekCount: false,
         selectable: true,
         selectHelper: true,
