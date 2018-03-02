@@ -3,7 +3,7 @@ Merupakan aplikasi web berbasis codeigniter untuk keperluan manajemen pekerjaan 
 
 ### Getting Started
 
-Masih versi awal, digunakan agar antar team/karyawan, bisa saling mengetahui pekerjaan bar apa yang diinginkan oleh departemen lain (atau bisa departemen sendiri). Kemudian melihat juga pekerjaan yang sementara dikerjakan (atau on progress). Cukup membantulah, dibanding harus menulis-nulis di whiteboard. 
+Masih versi awal, digunakan agar antar team/karyawan, bisa saling mengetahui pekerjaan baru apa saja yang diinginkan oleh departemen lain (atau bisa departemen sendiri). Kemudian melihat juga pekerjaan yang sementara dikerjakan (atau on progress). Cukup membantulah, dibanding harus menulis-nulis di whiteboard. 
 
 ![Screenshot](_build/preview.png)
 
