@@ -13,46 +13,46 @@
 <!-- ./wrapper -->
 
 <!-- jQuery 3 -->
-<script src="<?php echo base_url();?>assets/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="<?php echo base_url();?>assets/jquery/jquery.min.js"></script>
 
 <!-- jQuery UI 1.11.4 -->
-<script src="<?php echo base_url();?>assets/bower_components/jquery-ui/jquery-ui.min.js"></script>
+<script src="<?php echo base_url();?>assets/jquery-ui/jquery-ui.min.js"></script>
 <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
 <script>
 $.widget.bridge('uibutton', $.ui.button);
 </script>
 <!-- Bootstrap 3.3.7 -->
-<script src="<?php echo base_url();?>assets/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="<?php echo base_url();?>assets/bootstrap/js/bootstrap.min.js"></script>
 
 <!-- bootstrap datepicker -->
-<script src="<?php echo base_url();?>assets/bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+<script src="<?php echo base_url();?>assets/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
 
 <!-- Bootstrap slider -->
-<script src="<?php echo base_url();?>assets/plugins/bootstrap-slider/bootstrap-slider.js"></script>
+<script src="<?php echo base_url();?>assets/bootstrap-slider/bootstrap-slider.js"></script>
 
 <!-- iCheck 1.0.1 -->
-<script src="<?php echo base_url();?>assets/plugins/iCheck/icheck.min.js"></script>
+<script src="<?php echo base_url();?>assets/iCheck/icheck.min.js"></script>
 
 <!-- Select2 -->
-<script src="<?php echo base_url();?>assets/bower_components/select2/dist/js/select2.full.min.js"></script>
+<script src="<?php echo base_url();?>assets/select2/js/select2.full.min.js"></script>
 
 <!-- DataTables -->
-<script src="<?php echo base_url();?>assets/bower_components/datatables.net/js/jquery.dataTables.min.js"></script>
-<script src="<?php echo base_url();?>assets/bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
+<script src="<?php echo base_url();?>assets/datatables.net/js/jquery.dataTables.min.js"></script>
+<script src="<?php echo base_url();?>assets/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
 
 <!-- AdminLTE App -->
-<script src="<?php echo base_url();?>assets/dist/js/adminlte.min.js"></script>
+<script src="<?php echo base_url();?>assets/adminLTE/js/adminlte.min.js"></script>
 
 
 <!-- colorpicker -->
-<script src='<?php echo base_url();?>assets/bower_components/bootstrap-colorpicker/dist/js/bootstrap-colorpicker.min.js'></script>
+<script src='<?php echo base_url();?>assets/bootstrap-colorpicker/js/bootstrap-colorpicker.min.js'></script>
 
 <!-- notify -->
-<script src="<?php echo base_url();?>assets/plugins/notify/notify.min.js"></script>
+<script src="<?php echo base_url();?>assets/notify/notify.min.js"></script>
 
 
 <!-- sweetAlert -->
-<script src="<?php echo base_url();?>assets/plugins/sweetalert/sweetalert.min.js"></script>
+<script src="<?php echo base_url();?>assets/sweetalert/sweetalert.min.js"></script>
 
 
 <script>

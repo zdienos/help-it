@@ -29,7 +29,7 @@ khusus buat fullcalendar, karena versi ini bisa resize, kalo versi baru ndak sup
 
 
 <!-- jQuery UI 1.11.4 -->
-<script src="<?php echo base_url();?>assets/bower_components/jquery-ui/jquery-ui.min.js"></script>
+<script src="<?php echo base_url();?>assets/jquery-ui/jquery-ui.min.js"></script>
 
 <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
 <script>
@@ -37,13 +37,13 @@ $.widget.bridge('uibutton', $.ui.button);
 </script>
 
 <!-- Bootstrap 3.3.7 -->
-<script src="<?php echo base_url();?>assets/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="<?php echo base_url();?>assets/bootstrap/js/bootstrap.min.js"></script>
 
 <!-- AdminLTE App -->
-<script src="<?php echo base_url();?>assets/dist/js/adminlte.min.js"></script>
+<script src="<?php echo base_url();?>assets/adminLTE/js/adminlte.min.js"></script>
 
 <!-- sweetalert -->
-<script src="<?php echo base_url();?>assets/plugins/sweetalert/sweetalert.min.js"></script>
+<script src="<?php echo base_url();?>assets/sweetalert/sweetalert.min.js"></script>
 
 <!-- end of scripts -->
 
