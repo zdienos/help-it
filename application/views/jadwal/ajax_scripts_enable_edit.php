@@ -110,6 +110,7 @@ $(document).ready(function(){
         eventLimit: true, // allow "more" link when too many events
         events: base_url+'jadwal/getEvents',
         droppable: true, // this allows things to be dropped onto the calendar
+        firstDay: 1,
 
         fixedWeekCount: false,
         selectable: true,

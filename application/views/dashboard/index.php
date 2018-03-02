@@ -101,7 +101,7 @@
           <div class="box-body">
             <div class="row">
               <div class="col-md-12">
-                 <table id="dataTable2" class="table table-bordered table-striped table-hover">
+                 <table id="dataTableDashboard1" class="table table-bordered table-striped table-hover">
                    <thead>
                       <tr>
                           <th>No</th>
@@ -169,7 +169,7 @@
           <div class="box-body">
             <div class="row">
               <div class="col-md-12">
-                 <table id="dataTable1" class="table table-bordered table-striped table-hover">
+                 <table id="dataTableDashboard2" class="table table-bordered table-striped table-hover">
                    <thead>
                       <tr>
                           <th>Printer [Departemen]</th>

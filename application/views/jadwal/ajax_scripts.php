@@ -73,7 +73,26 @@ $(document).ready(function(){
         fixedWeekCount: false,
         selectable: true,
         selectHelper: true,
-        editable: false // Make the
+        editable: false,
+        // Event Mouseover
+        eventMouseover: function(calEvent, jsEvent, view){
+
+            var tooltip = '<div class="event-tooltip">' + calEvent.description + '</div>';
+            $("body").append(tooltip);
+
+            $(this).mouseover(function(e) {
+                $(this).css('z-index', 10000);
+                $('.event-tooltip').fadeIn('500');
+                $('.event-tooltip').fadeTo('10', 1.9);
+            }).mousemove(function(e) {
+                $('.event-tooltip').css('top', e.pageY + 10);
+                $('.event-tooltip').css('left', e.pageX + 20);
+            });
+        },
+        eventMouseout: function(calEvent, jsEvent) {
+            $(this).css('z-index', 8);
+            $('.event-tooltip').remove();
+        }
       });
 
     $('#drop-remove').change(function() {

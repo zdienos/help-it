@@ -35,10 +35,12 @@ class Dashboard extends CI_Controller {
 		$d_header['total_finished'] = $this->mp->hitungDataPermintaanbyStatus('finished');
 		$d_header['total_pekerjaan'] = $this->mp->hitungTotalDataPermintaan();
 
+		$d_header['title'] = 'Dashboard';
+
 		$this->load->view('template/header',$d_header);
 		$this->load->view('template/leftside');
 		$this->load->view('dashboard/index', $data);
-		$this->load->view('dashboard/ajax_scripts');
+		$this->load->view('template/footer_js');
 		$this->load->view('template/footer');
 	}
 

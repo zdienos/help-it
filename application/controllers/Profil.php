@@ -18,6 +18,8 @@ class Profil extends CI_Controller {
 		$d_header['total_waiting'] = $this->mp->hitungDataPermintaanbyStatus('waiting');
 		$d_header['total_progress'] = $this->mp->hitungDataPermintaanbyStatus('on progress');
 
+    $d_header['title'] = 'Profil';
+
 		$this->load->view('template/header',$d_header);
 		$this->load->view('template/leftside');
 		$this->load->view('profil/index'); //load index kategori, bypass $data

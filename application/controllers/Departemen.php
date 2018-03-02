@@ -19,6 +19,8 @@ class Departemen extends CI_Controller {
 		$d_header['total_waiting'] = $this->mp->hitungDataPermintaanbyStatus('waiting');
 		$d_header['total_progress'] = $this->mp->hitungDataPermintaanbyStatus('on progress');
 
+    $d_header['title'] = 'Departemen';
+
 		$this->load->view('template/header',$d_header);
 		$this->load->view('template/leftside');
 		$this->load->view('departemen/index', $data); //load index kategori, bypass $data

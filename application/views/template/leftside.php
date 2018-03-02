@@ -12,32 +12,32 @@
         <li class="header">MENU UTAMA
         </li>
         <li>
-          <a href="<?echo base_url() .'dashboard';?>">
+          <a href="<?php echo base_url() .'dashboard';?>">
             <i class="fa fa-dashboard"></i> <span>Dashboard</span>
           </a>
         </li>
         <li>
-            <a href="<?echo base_url() .'permintaan';?>"><i class="fa fa-tasks"></i>
+            <a href="<?php echo base_url() .'permintaan';?>"><i class="fa fa-tasks"></i>
               <span>Permintaan Pekerjaan</span>
             </a>
         </li>
         <li>
-            <a href="<?echo base_url() .'informasi';?>"><i class="fa fa-info"></i>
+            <a href="<?php echo base_url() .'informasi';?>"><i class="fa fa-info"></i>
               <span>Informasi Terbaru</span>
             </a>
         </li>
         <li>
-            <a href="<?echo base_url() .'identifikasi';?>"><i class="fa fa-wrench"></i>
+            <a href="<?php echo base_url() .'identifikasi';?>"><i class="fa fa-wrench"></i>
               <span>Identifikasi Pekerjaan</span>
             </a>
         </li>
         <li>
-            <a href="<?echo base_url() .'refill';?>"><i class="fa fa-tint"></i>
+            <a href="<?php echo base_url() .'refill';?>"><i class="fa fa-tint"></i>
               <span>Refill Tinta Printer</span>
             </a>
         </li>
         <li>
-            <a href="<?echo base_url() .'jadwal';?>"><i class="fa fa-calendar"></i>
+            <a href="<?php echo base_url() .'jadwal';?>"><i class="fa fa-calendar"></i>
               <span>Jadwal Kerja dan Event</span>
             </a>
         </li>
@@ -50,8 +50,8 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="<?echo base_url() .'departemen';?>"><i class="fa fa-circle-o"></i> Departemen</a></li>
-            <li><a href="<?echo base_url() .'profil';?>"><i class="fa fa-circle-o"></i> Profil User</a></li>
+            <li><a href="<?php echo base_url() .'departemen';?>"><i class="fa fa-circle-o"></i> Departemen</a></li>
+            <li><a href="<?php echo base_url() .'profil';?>"><i class="fa fa-circle-o"></i> Profil User</a></li>
           </ul>
         </li>
       </ul>

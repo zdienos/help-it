@@ -35,6 +35,8 @@ class Jadwal extends CI_Controller {
 			$d_header['total_finished'] = $this->mp->hitungDataPermintaanbyStatus('finished');
 			$d_header['total_pekerjaan'] = $this->mp->hitungTotalDataPermintaan();
 
+			$d_header['title'] = 'Jadwal';
+
 			$this->load->view('template/header',$d_header);
 			$this->load->view('template/leftside');
 			$this->load->view('jadwal/index');

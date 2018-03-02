@@ -3,10 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Help-IT | Login</title>
+  <title>Help-ITs | Login</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 
+  <link rel="shortcut icon" href="<?php echo base_url('assets/img/favicon.ico')?>" type="image/x-icon">
+  <link rel="icon" href="<?php echo base_url('assets/img/favicon.ico')?>" type="image/x-icon">
 
   <!--Admin LTE -->
 <link rel="stylesheet" href="<?php echo base_url();?>assets/dist/css/AdminLTE.css">
@@ -27,7 +29,8 @@
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <b>Help</b>-IT
+    <span class="logo-lg"><img style="margin-top:-5px;" width="48" src="<?php echo base_url('assets/img/help-it2.png')?>"></span>
+    <b>Help</b>-ITs
   </div>
   <!-- /.login-logo -->
   <div class="login-box-body">
@@ -71,7 +74,7 @@
   </div>
   <br>
   <center><strong>Copyright &copy; 2018 <a href="http://www.zdienos.com">zdienos</a>.</strong> All rights
-  reserved.</br><b>Version</b> 1.1.10</center>
+  reserved.</br><b>Version</b> 1.2.0</center>
   <!-- /.login-box-body -->
 </div>
 <!-- /.login-box -->

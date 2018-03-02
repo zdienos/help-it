@@ -3,10 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Help-IT | Dashboard</title>
+  <title>Help-ITs | <?php echo $title ?></title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.7 -->
+
+  <link rel="shortcut icon" href="<?php echo base_url('assets/img/favicon.ico')?>" type="image/x-icon">
+  <link rel="icon" href="<?php echo base_url('assets/img/favicon.ico')?>" type="image/x-icon">
 
   <link rel="stylesheet" href="<?php echo base_url();?>assets/bower_components/bootstrap/dist/css/bootstrap.min.css">
   <!-- Font Awesome -->
@@ -74,9 +77,9 @@
     <!-- Logo -->
     <a href="#" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
-      <span class="logo-mini"><b><i class="fa fa-cogs"></i></b></span>
+      <span class="logo-mini"><img style="margin-top:-5px;" width="24" src="<?php echo base_url('assets/img/help-it2.png')?>"></span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b><i class="fa fa-cogs"></i> Help</b> - IT</span>
+      <span class="logo-lg"><img style="margin-top:-5px;" width="24" src="<?php echo base_url('assets/img/help-it2.png')?>"><b></i> Help</b> - IT</span>
     </a>
     <!-- Header Navbar: style can be found in header.less -->
     <nav class="navbar navbar-static-top">
