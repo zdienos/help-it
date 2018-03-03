@@ -79,7 +79,7 @@
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"><img style="margin-top:-5px;" width="24" src="<?php echo base_url('assets/img/help-it2.png')?>"></span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><img style="margin-top:-5px;" width="24" src="<?php echo base_url('assets/img/help-it2.png')?>"><b></i> Help</b> - IT</span>
+      <span class="logo-lg"><img style="margin-top:-5px;" width="24" src="<?php echo base_url('assets/img/help-it2.png')?>"><b></i> Help</b> - ITs</span>
     </a>
     <!-- Header Navbar: style can be found in header.less -->
     <nav class="navbar navbar-static-top">

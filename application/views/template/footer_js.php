@@ -100,6 +100,7 @@ $('#dataTableDashboard1').DataTable({
 "bLengthChange": false
 })
 $('#dataTableDashboard2').DataTable({
+"bAutoWidth": false,
 "order": [[ 1, "desc" ]],
 "lengthMenu": [[5,10, 25, 50, -1], [5,10, 25, 50, "All"]],
 "searching": false,
