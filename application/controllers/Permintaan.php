@@ -28,6 +28,8 @@ class Permintaan extends CI_Controller {
 		$d_header['total_waiting'] = $this->mp->hitungDataPermintaanbyStatus('waiting');
 		$d_header['total_progress'] = $this->mp->hitungDataPermintaanbyStatus('on progress');
 
+		$d_header['title'] = 'Permintaan';
+
 		$this->load->view('template/header',$d_header);
 		$this->load->view('template/leftside');
 		$this->load->view('permintaan/index', $data);

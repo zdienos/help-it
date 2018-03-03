@@ -11,19 +11,19 @@
   <link rel="icon" href="<?php echo base_url('assets/img/favicon.ico')?>" type="image/x-icon">
 
   <!--Admin LTE -->
-<link rel="stylesheet" href="<?php echo base_url();?>assets/dist/css/AdminLTE.css">
+<link rel="stylesheet" href="<?php echo base_url();?>assets/adminLTE/css/AdminLTE.css">
   <!-- Bootstrap 3.3.6 -->
-  <link rel="stylesheet" href="<?php echo base_url();?>assets/bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="<?php echo base_url();?>assets/bootstrap/css/bootstrap.min.css">
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="<?php echo base_url();?>assets/bower_components/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="<?php echo base_url();?>assets/font-awesome/css/font-awesome.min.css">
   <!-- Ionicons -->
-  <link rel="stylesheet" href="<?php echo base_url();?>assets/bower_components/Ionicons/css/ionicons.min.css">
+  <link rel="stylesheet" href="<?php echo base_url();?>assets/Ionicons/css/ionicons.min.css">
   <!-- bootstrap datepicker -->
-  <link rel="stylesheet" href="<?php echo base_url();?>assets/bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css">
+  <link rel="stylesheet" href="<?php echo base_url();?>assets/bootstrap-datepicker/css/bootstrap-datepicker.min.css">
   <!-- Select2 -->
-  <link rel="stylesheet" href="<?php echo base_url();?>assets/bower_components/select2/dist/css/select2.min.css">
+  <link rel="stylesheet" href="<?php echo base_url();?>assets/select2/css/select2.min.css">
 
-  <script src="<?php echo base_url();?>assets/plugins/sweetalert/sweetalert.min.js"></script>
+  <script src="<?php echo base_url();?>assets/sweetalert/sweetalert.min.js"></script>
 
 </head>
 <body class="hold-transition login-page">
@@ -80,12 +80,12 @@
 <!-- /.login-box -->
 
 <!-- jQuery 3 -->
-<script src="<?php echo base_url();?>assets/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="<?php echo base_url();?>assets/jquery/jquery.min.js"></script>
 
 <!-- Bootstrap 3.3.7 -->
-<script src="<?php echo base_url();?>assets/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="<?php echo base_url();?>assets/bootstrap/js/bootstrap.min.js"></script>
 <!-- sweetalert -->
-<script src="<?php echo base_url();?>assets/plugins/sweetalert/sweetalert.min.js"></script>
+<script src="<?php echo base_url();?>assets/sweetalert/sweetalert.min.js"></script>
 
 </body>
 </html>
