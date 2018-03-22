@@ -1,24 +1,26 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class M_profil extends CI_Model {
+class M_informasi extends CI_Model {
 
-		function updateProfil($id){
-			$nama_user = $this->input->post('txt_username');
-			$nama_lengkap= $this->input->post('txt_name');
-			$data = array(
-				'nama_user' => $nama_user,
-				'nama_lengkap' => $nama_lengkap
-			);
-	    $this->db->where('id_user', $id);
-			$this->db->update('tb_user', $data);
-			if($this->db->affected_rows() > 0){
-				$this->session->set_userdata('nama_user', $nama_user);
-				$this->session->set_userdata('nama_lengkap', $nama_lengkap);
-	 			return true;
-	 		} else {
-	 			return false;
-	 		}
-	  }
+	function ambilData(){
+		$this->db->select('tb_informasi.id_informasi, tb_informasi.teks_informasi, tb_informasi.time_informasi, tb_informasi.userid_informasi, tb_user.id_user, tb_user.nama_lengkap, tb_user.avatar');
+		//$this->db->select('*');
+		//$this->db->where('tb_identifikasi.status','On Progress');
+		$this->db->from('tb_informasi');
+		$this->db->join('tb_user', 'tb_user.id_user = tb_informasi.userid_informasi');
+		$query = $this->db->get();
+		//print_r($query);
+		//die($query);
+		if($query->num_rows()>0)
+		{
+			return $query->result();
+		}
+		else
+		{
+			return false;
+		}			
+  }
+
 
 		function updatePassword(){
 			$id = $this->session->userdata('id_user');
