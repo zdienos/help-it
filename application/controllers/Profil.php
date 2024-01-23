@@ -8,7 +8,7 @@ class Profil extends CI_Controller {
 
     $this->load->model('M_permintaan','mp'); //load model, simpan ke m
     $this->load->model('M_profil','mr'); //load model, simpan ke m
-    $this->load->model('M_informasi','mi'); //load model, simpan ke m
+    // $this->load->model('M_informasi','mi'); //load model, simpan ke m
   }
 
 	function index(){
@@ -21,7 +21,7 @@ class Profil extends CI_Controller {
 
     $d_header['title'] = 'Profil';
 
-    $data['d_informasi'] = $this->mi->ambilData();
+    $data['d_informasi'] = '';//$this->mi->ambilData();
 
 		$this->load->view('template/header',$d_header);
 		$this->load->view('template/leftside');

@@ -6,7 +6,7 @@ class M_informasi extends CI_Model {
 		$this->db->select('tb_informasi.id_informasi, tb_informasi.teks_informasi, tb_informasi.time_informasi, tb_informasi.userid_informasi, tb_user.id_user, tb_user.nama_lengkap, tb_user.avatar');
 		//$this->db->select('*');
 		//$this->db->where('tb_identifikasi.status','On Progress');
-		$this->db->from('tb_informasi');
+		$this->db->from('tb_infkjkjkjkormasi');
 		$this->db->join('tb_user', 'tb_user.id_user = tb_informasi.userid_informasi');
 		$query = $this->db->get();
 		//print_r($query);
