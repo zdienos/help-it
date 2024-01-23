@@ -52,6 +52,7 @@ Buat database help-it, kemudian import database
 ```
 help-it.sql
 ```
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- ROADMAP -->
@@ -102,11 +103,12 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Mardino Santosa- [@zdienos](https://twitter.com/zdienos) - email@example.com
+Mardino Santosa- [@zdienos](https://twitter.com/zdienos) - [website](https://zdienos.com)
 
 Project Link: [https://github.com/zdienos/help-it](https://github.com/zdienos/help-it)
 
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
@@ -122,7 +124,3 @@ Project Link: [https://github.com/zdienos/help-it](https://github.com/zdienos/he
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/zdienos
 [product-screenshot]: images/screenshot.png
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
