@@ -58,7 +58,7 @@
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-     <li><a href="#buildwith">Build With</a></li>	  
+     <li><a href="#builtwith">Built With</a></li>	  
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -119,10 +119,13 @@ help-it.sql
 Lihat [daftar issues](https://github.com/zdienos/help-it/issues) untuk penambahan fitur atau issues.
 
   
-## BuildWith
+## BuiltWith
 
-* [CodeIgniter](https://codeigniter.com/) - Framework v3.1.7
-* [AdminLTE](https://adminlte.io/) - Control Panel Template
+* ![CodeIgniter](https://img.shields.io/badge/CodeIgniter-%23EF4223.svg?style=for-the-badge&logo=codeIgniter&logoColor=white)
+* ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white)
+* ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+* ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white)
+* ![adminLTE](https://img.shields.io/badge/admin-LTE-blue)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
