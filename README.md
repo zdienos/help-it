@@ -26,7 +26,7 @@
   <h3 align="center">helpIT</h3>
 
   <p align="center">
-    Aplikasi untuk membantu pekerjaan divisi IT
+    Aplikasi untuk membantu monitoring pekerjaan antar karyawan khususnya bidang IT
     <br />
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
@@ -67,7 +67,7 @@
 </details>
 
 ## About
-Merupakan aplikasi web berbasis codeigniter untuk keperluan manajemen pekerjaan (work order) khususnya bidang IT.
+Merupakan aplikasi web berbasis codeigniter untuk keperluan manajemen pekerjaan (work order) khususnya bidang IT (tapi harusnya bisa juga sih untuk bidang atau divisi lain).
 Masih versi awal, digunakan agar antar team/karyawan, bisa saling mengetahui pekerjaan baru apa saja yang diinginkan oleh departemen lain (atau bisa departemen sendiri). Kemudian melihat juga pekerjaan yang sementara dikerjakan (atau on progress). Cukup membantulah, dibanding harus menulis-nulis di whiteboard. 
 Awalnya diprivate, tetapi karena sudah tidak digunakan, mending dibuat public saja. Siapa tau berguna.
 
@@ -111,7 +111,8 @@ help-it.sql
 ## Roadmap
 
 - [x] Ubah dari private repository menjadi public
-- [ ] Update ke Codeigniter versi 3.1.13
+- [x] Update ke Codeigniter versi 3.1.13
+- [ ] Refactor codingan
 - [ ] Ganti template menggunakan CoreUI
 - [ ] Selesaikan fitur yang belum direalisasikan
 - [ ] Cari Sponsor???
