@@ -14,7 +14,56 @@
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-## help-it
+<br />
+<div align="center">
+  <a href="https://github.com/zdienos/help-it">
+    <img src="_build/help-it2.png" alt="Logo" width="80" height="80">
+  </a>
+
+  <h3 align="center">helpIT</h3>
+
+  <p align="center">
+    Aplikasi untuk membantu pekerjaan divisi IT
+    <br />
+    <br />
+    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    ·
+    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+  </p>
+</div>
+
+
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installing">Installing</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+     <li><a href="#buildwith">Build With</a></li>	  
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
+
+## About
 Merupakan aplikasi web berbasis codeigniter untuk keperluan manajemen pekerjaan (work order) khususnya bidang IT.
 Masih versi awal, digunakan agar antar team/karyawan, bisa saling mengetahui pekerjaan baru apa saja yang diinginkan oleh departemen lain (atau bisa departemen sendiri). Kemudian melihat juga pekerjaan yang sementara dikerjakan (atau on progress). Cukup membantulah, dibanding harus menulis-nulis di whiteboard. 
 Awalnya diprivate, tetapi karena sudah tidak digunakan, mending dibuat public saja. Siapa tau berguna.
@@ -22,7 +71,7 @@ Awalnya diprivate, tetapi karena sudah tidak digunakan, mending dibuat public sa
 ![Screenshot](_build/preview.png)
 
 
-### Getting Started
+## Getting Started
 
 Beberapa hal yang perlu kamu persiapkan agar bisa menjalankan web apps ini.
 
@@ -67,7 +116,7 @@ help-it.sql
 Lihat [daftar issues](https://github.com/zdienos/help-it/issues) untuk penambahan fitur atau issues.
 
   
-### Dibuat Menggunakan
+## BuildWith
 
 * [CodeIgniter](https://codeigniter.com/) - Framework v3.1.7
 * [AdminLTE](https://adminlte.io/) - Control Panel Template
@@ -124,4 +173,4 @@ Project Link: [https://github.com/zdienos/help-it](https://github.com/zdienos/he
 [license-url]: https://github.com/zdienos/help-it/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/zdienos
-[product-screenshot]: images/screenshot.png
+
