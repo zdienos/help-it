@@ -14,14 +14,19 @@ class M_Login extends CI_Model
 
 		$query = $this->db->get("tb_user");
 		if ($query->num_rows() > 0) {
-			foreach ($query->result() as $qad) {
-				$sess_data['id_user'] = $qad->id_user;
-				$sess_data['nama_user'] = $qad->nama_user;
-				$sess_data['nama_lengkap'] = $qad->nama_lengkap;
-				$sess_data['level'] = $qad->level;
-				$sess_data['avatar'] = $qad->avatar;
-				$this->session->set_userdata($sess_data);
-			}
+			// foreach ($query->result() as $qad) {
+				$qad = $query->row();
+				$session_data = [
+					'id_user'		=> $qad->id_user,
+					'nama_user' 	=> $qad->nama_user,
+					'nama_lengkap'	=> $qad->nama_lengkap,
+					'role'			=> $qad->role,
+					'avatar'		=> $qad->avatar,
+					'logged_in'		=>'helpITlogin',
+				];
+
+				$this->session->set_userdata($session_data);
+			// }
 			return true;
 		} else {
 			return false;
