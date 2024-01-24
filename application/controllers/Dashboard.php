@@ -1,13 +1,14 @@
-<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+<?php if (!defined('BASEPATH')) exit('No direct script access allowed');
 
-class Dashboard extends CI_Controller {
+class Dashboard extends CI_Controller
+{
 
 	public function __construct()
 	{
 		parent::__construct();
-    $this->load->model('M_permintaan','mp'); //load model, simpan ke m
-		$this->load->model('M_identifikasi','md'); //load model, simpan ke m
-		$this->load->model('M_refill','mr');
+		$this->load->model('M_permintaan', 'mp'); //load model, simpan ke m
+		$this->load->model('M_identifikasi', 'md'); //load model, simpan ke m
+		$this->load->model('M_refill', 'mr');
 		$this->load->helper('date');
 		$this->_cek_login();
 	}
@@ -15,8 +16,8 @@ class Dashboard extends CI_Controller {
 	private function _cek_login()
 	{
 		if (!isset($this->session->userdata['id_user'])) {
-	  redirect(base_url("login"));
-	  }
+			redirect(base_url("login"));
+		}
 	}
 
 	function index()
@@ -37,14 +38,15 @@ class Dashboard extends CI_Controller {
 
 		$d_header['title'] = 'Dashboard';
 
-		$this->load->view('template/header',$d_header);
+		$this->load->view('template/header', $d_header);
 		$this->load->view('template/leftside');
 		$this->load->view('dashboard/index', $data);
 		$this->load->view('template/footer_js');
 		$this->load->view('template/footer');
 	}
 
-	function lihat($kode){
+	function lihat($kode)
+	{
 		$did = $this->md->ambilDataIdentifikasibyID($kode);
 		$dpk = $this->mp->ambilDataPermintaanbyID($kode);
 		$dso = $this->md->ambilDataSolusibyID($kode);
@@ -61,7 +63,7 @@ class Dashboard extends CI_Controller {
 			'tanggal_solusi' => $dso->tanggal,
 			'solusi' => $dso->solusi,
 			'solusi_oleh' => $dso->oleh
-			);
+		);
 
 		$d_header['d_permintaan'] = $this->mp->ambilDataPermintaanbyStatus('waiting');
 		$d_header['d_progress'] = $this->mp->ambilDataPermintaanbyStatusJoin('on progress');
@@ -69,7 +71,7 @@ class Dashboard extends CI_Controller {
 		$d_header['total_waiting'] = $this->mp->hitungDataPermintaanbyStatus('waiting');
 		$d_header['total_progress'] = $this->mp->hitungDataPermintaanbyStatus('on progress');
 
-		$this->load->view('template/header',$d_header);
+		$this->load->view('template/header', $d_header);
 		$this->load->view('template/leftside');
 		$this->load->view('dashboard/lihat', $data);
 		$this->load->view('template/footer_js');
@@ -88,11 +90,10 @@ class Dashboard extends CI_Controller {
 		$d_header['total_finished'] = $this->mp->hitungDataPermintaanbyStatus('finished');
 		$d_header['total_pekerjaan'] = $this->mp->hitungTotalDataPermintaan();
 
-		$this->load->view('template/header',$d_header);
+		$this->load->view('template/header', $d_header);
 		$this->load->view('template/leftside');
 		$this->load->view('dashboard/selesai', $data);
 		$this->load->view('template/footer_js');
 		$this->load->view('template/footer');
 	}
-
 }
