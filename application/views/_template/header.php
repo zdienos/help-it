@@ -28,13 +28,16 @@
 	<meta name="msapplication-TileImage" content="assets/favicon/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
 	<!-- Vendors styles-->
-	<link rel="stylesheet" href="<?= base_url('public/'); ?>vendors/simplebar/css/simplebar.css">
-	<link rel="stylesheet" href="<?= base_url('public/'); ?>css/vendors/simplebar.css">
+	<!-- <link rel="stylesheet" href="<?= base_url('public/'); ?>vendors/simplebar/css/simplebar.css"> -->
+	<!-- <link rel="stylesheet" href="<?= base_url('public/'); ?>css/vendors/simplebar.css"> -->
 	<!-- Main styles for this application-->
-	<link href="<?= base_url('public/'); ?>css/style.css" rel="stylesheet">
-	<!-- We use those styles to show code examples, you should remove them in your application.-->
-	<link href="<?= base_url('public/'); ?>css/examples.css" rel="stylesheet">
-	<link href="<?= base_url('public/'); ?>vendors/@coreui/chartjs/css/coreui-chartjs.css" rel="stylesheet">
+	<!-- <link rel="stylesheet" href="https://coreui.io/demos/bootstrap/4.3/default-v3/css/style.css"> -->
+	<link href="<?= base_url('public/'); ?>css/style-pro.css" rel="stylesheet">
+	<!-- <link href="<?= base_url('public/'); ?>css/style.css" rel="stylesheet"> -->
+	<link href="<?= base_url('public/'); ?>vendors/@coreui/icons/css/free.min.css" rel="stylesheet">
+
+
+	<?= $css; ?>
 </head>
 
 <body>

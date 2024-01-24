@@ -15,25 +15,20 @@ class Dashboard extends CI_Controller
 
 	public function index()
 	{
-		$data = [
-			'breadcrumb' => 'ini breadcrumb'
-		];
-		$this->layout->view('DASBOARD','_pages/dashboard/index', $data);
-		// die('xxx');
-		// $data = array(
-		// 	//'pppk' => $this->m->Getpppk('order by no desc')->result_array(),
-		// 	'd_permintaan' => $this->mp->ambilDataPermintaan(), //buat ambil join persen dari tb_identifikasi
-		// 	'd_refill' => $this->mr->ambilDataRefill()
-		// );
+		$data = array(
+			'breadcrumb' 		=> 'ini breadcrumb',
+			'total_waiting' 	=> $this->mp->hitungDataPermintaanbyStatus('waiting'),
+			'total_progress' 	=> $this->mp->hitungDataPermintaanbyStatus('on progress'),
+			'total_finished' 	=> $this->mp->hitungDataPermintaanbyStatus('finished'),
+			'total_pekerjaan' 	=> $this->mp->hitungTotalDataPermintaan(),
+			'd_permintaan' 		=> $this->mp->ambilDataPermintaan(), //buat ambil join persen dari tb_identifikasi
+			'd_refill' 			=> $this->mr->ambilDataRefill()
+		);
 
 		// $d_header['d_permintaan'] = $this->mp->ambilDataPermintaanbyStatus('waiting');
 		// $d_header['d_progress'] = $this->mp->ambilDataPermintaanbyStatusJoin('on progress');
 
-		// $d_header['total_waiting'] = $this->mp->hitungDataPermintaanbyStatus('waiting');
-		// $d_header['total_progress'] = $this->mp->hitungDataPermintaanbyStatus('on progress');
-		// $d_header['total_finished'] = $this->mp->hitungDataPermintaanbyStatus('finished');
-		// $d_header['total_pekerjaan'] = $this->mp->hitungTotalDataPermintaan();
-
+		
 		// $d_header['title'] = 'Dashboard';
 
 		// $this->load->view('template/header', $d_header);
@@ -41,6 +36,8 @@ class Dashboard extends CI_Controller
 		// $this->load->view('dashboard/index', $data);
 		// $this->load->view('template/footer_js');
 		// $this->load->view('template/footer');
+		$this->layout->view('DASBOARD','_pages/dashboard/index', $data);
+
 	}
 
 	function lihat($kode)

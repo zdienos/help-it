@@ -41,7 +41,7 @@ class Layout
 		
 		$this->set('content', $this->CI->load->view($view, $view_data, TRUE));
 
-		$this->set('footer', $this->CI->load->view($view, $view_data, TRUE));
+		// $this->set('footer', $this->CI->load->view($view, $view_data, TRUE));
 
 		if ($this->_view_exists($view . '_js')) {
 			$this->set('javascript', $this->CI->load->view($view . '_js', $view_data, TRUE));
