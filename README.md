@@ -67,9 +67,10 @@
 </details>
 
 ## About
-Merupakan aplikasi web berbasis codeigniter untuk keperluan manajemen pekerjaan (work order) khususnya bidang IT (tapi harusnya bisa juga sih untuk bidang atau divisi lain).
+helpIT Merupakan aplikasi berbasis web yang dibuat untuk keperluan manajemen pekerjaan (work order) khususnya bidang IT (tapi harusnya bisa juga sih untuk bidang atau divisi lain). 
 Masih versi awal, digunakan agar antar team/karyawan, bisa saling mengetahui pekerjaan baru apa saja yang diinginkan oleh departemen lain (atau bisa departemen sendiri). Kemudian melihat juga pekerjaan yang sementara dikerjakan (atau on progress). Cukup membantulah, dibanding harus menulis-nulis di whiteboard. 
-Awalnya diprivate, tetapi karena sudah tidak digunakan, mending dibuat public saja. Siapa tau berguna.
+helpIT dibuat menggunakan menggunakan Framework Codeigniter sebagai pembelajaran awal saya mengenal CodeIgniter, awalnya sih diprivate, tetapi karena sudah tidak digunakan, mending dibuat public saja, siapa tau berguna. 
+
 
 ![Screenshot](_build/preview.png)
 
